@@ -1,0 +1,74 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+*.log
+*.tlog
+*.lastbuildstate
+
+# Visual Studio files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.opendb
+
+# Compiled binaries
+*.exe
+*.dll
+*.lib
+*.pdb
+*.ipch
+*.obj
+*.idb
+
+# Static analysis / profiling
+*.iobj
+*.ipdb
+*.opendb
+*.pgc
+*.pgd
+
+# Cache files
+*.aps
+*.ncb
+*.cache
+*.pyc
+*.class
+*.pch
+
+# Test output
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# Packages
+*.vsix
+*.zip
+*.tar.gz
+*.7z
+
+# Visual Studio folder
+.vs/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+
+# Other IDE files
+*.code-workspace
+
+# Backup and autosave
+*~
+*.bak
+*.tmp
+*.old
+
+# Ignore local configuration files
+*.env
