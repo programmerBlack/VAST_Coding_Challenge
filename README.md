@@ -8,10 +8,10 @@
 * Now on to the Coding Challenge.
 
 /* Visual Studio C++ Project */
-The code in this project for the challenge was built in Pure C++. The source is contained in the Standard Visual Studio project structure. If you want you can view the source directly here on github, or clone the repository and run the simulation from Visual Studio.
-There is very mininmal pseudo code, and the Simulation actually runs per the requirements laid out in the Coding Challenge document.
-To configure the simulation to run in different "situations" change the values in: int main().
-There, you will find a struct named "SimulationConfiguration" that structure houses the setup variables used to pre-configure the simulation before running.
+* The code in this project for the challenge was built in Pure C++. The source is contained in the Standard Visual Studio project structure. If you want you can view the source directly here on github, or clone the repository and run the simulation from Visual Studio.
+* There is very mininmal pseudo code, and the Simulation actually runs per the requirements laid out in the Coding Challenge document.
+* To configure the simulation to run in different "situations" change the values in: int main().
+* There, you will find a struct named "SimulationConfiguration" that structure houses the setup variables used to pre-configure the simulation before running.
 
 /* TESTING STRATEGIES. */
 * Strategy #1. Scale Test
