@@ -5,34 +5,6 @@
 #include <iostream>
 #include <thread>
 
-/**************************/
-/* VAST Coding Challenge. */
-/**************************/
-/*
-* This is a fully functional Simulation. :) I wrote this version here that you can run, and I wrote a second version in Unreal Engine 5.
-* I'll be sending this project over along with the Unreal Engine 5 Build (I made it just for you) and a video of the build running if you want to view that instead.
-* You should check them out, they're pretty cool. :)
-*/
-
-/***********************/
-/* TESTING STRATEGIES. */
-/***********************/
-/*
-* Foreword:
-* Usually scale would be considered in this case. Scale in terms of Network bandwidth / latency, persistence size (non-volatile memory usage), and memory (volatile memory usage).
-* But since this simulation runs locally the only considerations for scale I'm making are #1. The memory footprint of the simulation and #2. It's runtime performance (no crashes etc).
-*/
-
-/*
-* Strategy #1. Ensure (through unit testing) when we add more Mining Trucks with same amount of Unloading Locations we experience global efficiency gains, while our efficiencies per truck would be expected to fall
-* due to an increasing queue time. Unloading station efficiency should be maximized as they will be at full capacity at all times.
-*/
-
-/*
-* Strategy #2. Ensure that when we reduce the number of Mining Trucks and increase the number of loading stations our efficiency per truck would be higher than in Strategy #1,
-* while our unloading station efficiency would be reduced, as there are less trucks occupying a station at any given time - unloading Helium-3.
-*/
-
 void RunTestSuite()
 {
 	// Run Through a Suite of Unit tests here.
