@@ -4,14 +4,14 @@
 /*
 * Updates the Global Simulation Timer (the 72 hour countdown).
 */
-bool MiningTruckSimulationTimer::Tick(float DeltaTime)
+bool MiningTruckSimulationTimer::Tick(float deltaTime)
 {
 	if (GlobalRemainingTime <= 0.0f)
 	{
 		return true;
 	}
 
-	GlobalRemainingTime -= DeltaTime * TimeDilation;
+	GlobalRemainingTime -= deltaTime;
 	std::cout << "Simulation Time Left: " << GlobalRemainingTime << " seconds." << std::endl;
 
 	if (GlobalRemainingTime <= 0.0f)
